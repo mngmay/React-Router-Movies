@@ -4,7 +4,6 @@ const MovieCard = props => {
   const { movie, saveMovie } = props;
   const { title, director, metascore, stars } = movie;
 
-  console.log(props);
   return (
     <div className="save-wrapper">
       <div className="movie-card">
