@@ -32,7 +32,8 @@ const MovieList = props => {
 };
 
 function MovieDetails({ movie }) {
-  return <MovieCard movie={movie} />;
+  const { save } = movie;
+  return <MovieCard movie={movie} save={save} />;
 }
 
 export default MovieList;
