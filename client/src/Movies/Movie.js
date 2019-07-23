@@ -25,7 +25,6 @@ const Movie = props => {
   const saveMovie = () => {
     const addToSavedList = save;
     addToSavedList(movie);
-    console.log("Save clicked");
   };
 
   if (!movie) {
