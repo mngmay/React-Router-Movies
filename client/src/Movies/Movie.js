@@ -3,7 +3,7 @@ import MovieCard from "./MovieCard";
 import axios from "axios";
 
 const Movie = props => {
-  const { save } = props;
+  const { save, location } = props;
   const [movie, setMovie] = useState();
 
   useEffect(() => {
@@ -31,7 +31,7 @@ const Movie = props => {
     return <div>Loading movie information...</div>;
   }
 
-  return <MovieCard movie={movie} saveMovie={saveMovie} />;
+  return <MovieCard movie={movie} saveMovie={saveMovie} location={location} />;
 };
 
 export default Movie;
