@@ -16,6 +16,10 @@ body {
   margin: 1rem auto;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 .movie-director {
   padding: 4px 0;
   font-size: 0.8rem;
@@ -69,4 +73,8 @@ body {
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
+}
+
+.hide {
+  display: none;
 }
